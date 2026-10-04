@@ -23,8 +23,8 @@ Run the script from the command line
 - `-o` or `--output`: Filename to save results  |   None default
 
 ### Examples:
-python port_scanner.py -d scanme.nmap.org
-python port_scanner.py -d scanme.nmap.org -b
-python port_scanner.py -d 192.168.1.1 -p 1-500 -b
-python port_scanner.py -d 192.168.1.1 -p 1-500 -b -t 200
-python port_scanner.py -d scanme.nmap.org -p 1-100 -t 200 --timeout 0.5 -b -o results.json
+- python port_scanner.py -d scanme.nmap.org
+- python port_scanner.py -d scanme.nmap.org -b
+- python port_scanner.py -d 192.168.1.1 -p 1-500 -b
+- python port_scanner.py -d 192.168.1.1 -p 1-500 -b -t 200
+- python port_scanner.py -d scanme.nmap.org -p 1-100 -t 200 --timeout 0.5 -b -o results.json
